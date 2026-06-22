@@ -1,0 +1,9 @@
+[tools]
+go = "1.26"
+
+[tasks]
+tidy = { run = "go mod tidy" }
+build = { run = "go build -o ssh_known_hosts .", depends = ["tidy"] }
+
+[deps]
+go = { auto = true }

@@ -15,7 +15,7 @@ import (
 )
 
 const (
-	defaultURL            = "https://raw.githubusercontent.com/vignemail1/ssh_known_hosts_shell/refs/heads/main/db.txt"
+	defaultURL            = "https://raw.githubusercontent.com/vignemail1/ssh_known_hosts_go/refs/heads/main/db.txt"
 	defaultCacheDir       = ".cache/ssh-knownhosts"
 	defaultCacheTTL       = 86400
 	defaultConnectTimeout = 5
